@@ -8,8 +8,18 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FXMLControllerTest {
     
-    //Call the methods associated to saving the file, renaming the file, and deleting the file
-    //Create tests to check expected file names or titles in the arrayList (includes check for rename of title)
-    //Create tests to check the file in the expected external storage
+    //To test if the file is saved:
+    //Create a file and call the save method and other associated methods (to save the file)
+    //Use assertTrue to check if the file was found in the expected directory
+    
+    //To test if the file is deleted:
+    //Create a file and call the delelte method and other associated methods (to delete the file)
+    //Use assertFalse to check if the file was deleted from the expected directory
+    
+    //To test if the file is renamed:
+    //Create a file and call the rename method and other associated methods (to save the file)
+    //Use assertTrue to check if the file was found in the expected directory
+    
+    //t check for all the all the lists, initialize an arraylist and call the getArrayList and check using asserTrue.
 
 }
