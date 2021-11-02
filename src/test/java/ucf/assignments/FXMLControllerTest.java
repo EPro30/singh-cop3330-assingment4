@@ -7,8 +7,9 @@ package ucf.assignments;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FXMLControllerTest {
-
-    //Create tests to check expected items in arrayList (includes check for rename of title)
+    
+    //Call the methods associated to saving the file, renaming the file, and deleting the file
+    //Create tests to check expected file names or titles in the arrayList (includes check for rename of title)
     //Create tests to check the file in the expected external storage
 
 }
