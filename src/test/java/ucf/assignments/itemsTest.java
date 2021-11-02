@@ -7,8 +7,10 @@ package ucf.assignments;
 import static org.junit.jupiter.api.Assertions.*;
 
 class itemsTest {
-
-    //Create tests to check expected items in observable lists
-    //The test includes a check for adding events in file, renaming date and description, status of tasks
+    
+    //Overall, the tasks will be divided in two categories: complete and incomplete.
+    //To check the lists associtate to complete and incomplete tasks:
+    //Inialize arrayList(s) to check for complee and incomplete tasks
+    //Call the required functions: editDescription(), editDate(), createCompleteItemsList(), and createIncompleteItemsList()
 
 }
